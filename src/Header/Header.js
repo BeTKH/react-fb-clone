@@ -31,7 +31,7 @@ function Header() {
         </div>
 
         <div class="header__center">
-          <div class="header__option">
+          <div class="header__option header__option--active">
             <HomeIcon fontSize="large" />
           </div>
           <div class="header__option">
