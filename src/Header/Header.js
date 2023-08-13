@@ -9,6 +9,7 @@ import SupervisedUserCircleIcon from "@mui/icons-material/SupervisedUserCircle";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import AddIcon from "@mui/icons-material/Add";
+import ChatIcon from "@mui/icons-material/Chat";
 import ForumIcon from "@mui/icons-material/Forum";
 import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -31,30 +32,29 @@ function Header() {
 
         <div class="header__center">
           <div class="header__option">
-            <HomeIcon />
+            <HomeIcon fontSize="large" />
           </div>
           <div class="header__option">
-            <FlagIcon />
+            <FlagIcon fontSize="large" />
           </div>
           <div class="header__option">
-            <SubscriptionsOutlinedIcon />
+            <SubscriptionsOutlinedIcon fontSize="large" />
           </div>
           <div class="header__option">
-            <StorefrontOutlinedIcon />
+            <StorefrontOutlinedIcon fontSize="large" />
           </div>
           <div class="header__option">
-            <SupervisedUserCircleIcon />
+            <SupervisedUserCircleIcon fontSize="large" />
           </div>
         </div>
 
         <div class="header__right">
-          <div class="header__info">
-            <Avatar />
-            <h4>Bek kobro</h4>
-          </div>
-
           <IconButton>
             <AddIcon />
+          </IconButton>
+
+          <IconButton>
+            <ChatIcon />
           </IconButton>
 
           <IconButton>
@@ -68,6 +68,11 @@ function Header() {
           <IconButton>
             <ExpandMoreIcon />
           </IconButton>
+
+          <div class="header__info">
+            <Avatar />
+            <h4></h4>
+          </div>
         </div>
       </div>
     </>
