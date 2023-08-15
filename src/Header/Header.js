@@ -70,7 +70,7 @@ function Header() {
           </IconButton>
 
           <div class="header__info">
-            <Avatar />
+            <Avatar src="https://avatars.githubusercontent.com/BeTKH" />
             <h4></h4>
           </div>
         </div>
