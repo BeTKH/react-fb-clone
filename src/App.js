@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Header/Header";
 import Sidebar from "./Sidebar/Sidebar";
 import Feed from "./Feed/Feed";
-import Post from "./Feed/Post/Post";
+import Widgets from "./Widgets/Widgets";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Feed />
 
           {/* Widgets*/}
+          <Widgets />
         </div>
       </div>
     </>
