@@ -10,6 +10,7 @@ function App() {
         <Header />
 
         <div class="app__body">
+          {/* SideBar */}
           <Sidebar />
           {/* Feed*/}
           {/* Widgets*/}
