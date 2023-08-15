@@ -4,24 +4,28 @@ import Header from "./Header/Header";
 import Sidebar from "./Sidebar/Sidebar";
 import Feed from "./Feed/Feed";
 import Widgets from "./Widgets/Widgets";
+import Login from "./Login/Login";
 
 function App() {
+  const user = null;
   return (
-    <>
-      <div className="app">
-        <Header />
-
-        <div class="app__body">
-          {/* SideBar */}
-          <Sidebar />
-          {/* Feed*/}
-          <Feed />
-
-          {/* Widgets*/}
-          <Widgets />
-        </div>
-      </div>
-    </>
+    <div className="app">
+      {!user ? (
+        <Login />
+      ) : (
+        <>
+          <Header />
+          <div class="app__body">
+            {/* SideBar */}
+            <Sidebar />
+            {/* Feed*/}
+            <Feed />
+            {/* Widgets*/}
+            <Widgets />
+          </div>
+        </>
+      )}
+    </div>
   );
 }
 
