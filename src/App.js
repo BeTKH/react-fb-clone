@@ -4,10 +4,10 @@ import Header from "./Header/Header";
 import Sidebar from "./Sidebar/Sidebar";
 import Feed from "./Feed/Feed";
 import Widgets from "./Widgets/Widgets";
-import Login from "./Login/Login";
+import Login from "./Login";
 
 function App() {
-  const user = "Bek";
+  const user = null;
   return (
     <div className="app">
       {!user ? (

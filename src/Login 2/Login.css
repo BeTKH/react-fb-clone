@@ -1,0 +1,75 @@
+.login__top {
+    height: 54vh; /* 50% of viewport height */
+    width: 100%; /* Full width of the viewport */
+    background-color: #F0F2F5; /* Just for visualization */
+   
+    box-sizing: border-box; /* Include border in the defined width */
+  }
+
+
+
+  .login__top__container{
+
+    background-color: transparent;
+    width: 70%;
+    height: 60%;
+    position: relative;
+    transform: translate(20%, 20%);
+    display: flex;
+    
+  }
+
+  .logo__and__text{
+    background-color: transparent;
+    position: relative;
+    width: 60%;
+    height: 100%;
+  }
+
+  .logo{
+    width: 50%;
+    margin: 20px;
+    margin-top: 20%;
+
+  }
+
+  .text__underlogo{
+    width: auto;
+    margin-left: 12px;
+    font-weight: normal;
+    width: fit-content;
+
+  }
+
+  
+  .login__button_container{
+    background-color: white;
+    position: relative;
+    width: 40%;
+    height: 100%;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 75);
+    border-radius: 15px;
+  }
+
+  .login__button_container > button {
+    background-color: #1677F2;
+    width: 80%;
+    height: 12%;
+    border-radius: 10px;
+    transform: translate(13%, 350%);
+    border: transparent;
+    cursor: pointer;
+  }
+
+  .login__button_container > button:hover{
+    background-color: #1263cc;
+
+  }
+
+  
+
+  .login_button > p{
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+  }
