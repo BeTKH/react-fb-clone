@@ -7,7 +7,7 @@ import Widgets from "./Widgets/Widgets";
 import Login from "./Login";
 
 function App() {
-  const user = null;
+  const user = "Jak";
   return (
     <div className="app">
       {!user ? (

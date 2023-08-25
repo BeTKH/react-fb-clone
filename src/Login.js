@@ -3,6 +3,8 @@ import "./Login.css";
 import { auth, provider } from "./firebase";
 
 function Login() {
+
+  
   const signIn = () => {
     auth
       .signInWithPopup(provider)
