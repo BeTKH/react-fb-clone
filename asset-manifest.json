@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fb-clone/static/css/main.c79045ba.css",
+    "main.js": "/fb-clone/static/js/main.ee374518.js",
+    "static/js/787.c9af9561.chunk.js": "/fb-clone/static/js/787.c9af9561.chunk.js",
+    "index.html": "/fb-clone/index.html",
+    "main.c79045ba.css.map": "/fb-clone/static/css/main.c79045ba.css.map",
+    "main.ee374518.js.map": "/fb-clone/static/js/main.ee374518.js.map",
+    "787.c9af9561.chunk.js.map": "/fb-clone/static/js/787.c9af9561.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c79045ba.css",
+    "static/js/main.ee374518.js"
+  ]
+}
