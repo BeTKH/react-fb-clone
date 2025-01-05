@@ -16,7 +16,7 @@ A modern, responsive web application replicating the core functionality and desi
 
 ### Demo
 
-[![Watch the video](screenshots/demo.png)](https://youtu.be/zVffu5_T7UE)
+[![Watch the video](demo.png)](https://youtu.be/zVffu5_T7UE)
 
 ### Technologies Used
 
