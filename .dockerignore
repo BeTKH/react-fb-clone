@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# production build output
+.next
+out
+dist
+
+# testing
+coverage
+
+# system files
+.DS_Store
+Thumbs.db
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# IDE/editor settings
+.vscode
+.idea
+
+# optional: Docker artifacts
+Dockerfile
+docker-compose.yml
